@@ -14,7 +14,7 @@ A responsive and interactive landing page showcasing the **Nike Air Max Motion 2
 
 project/
 │
-├── index.html
+├── index.html <br>
 ├── assets/
 │ ├── img/
 │ │ └── NikeAirMaxMotion2.png
