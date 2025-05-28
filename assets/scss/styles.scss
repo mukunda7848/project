@@ -46,12 +46,12 @@ a{
         @media screen and(max-width: 968px){
             position: fixed;
             left: -100%;
-            top: var(--header-height);
+            top: 3.5rem;
             background-color: var(--white-color);
             width: 80%;
             height: 100%;
             padding: 2rem;
-            z-index: var(--z-fixed);
+            z-index: 100;
             transition: .3s;
         }
     }
