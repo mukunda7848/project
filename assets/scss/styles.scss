@@ -123,14 +123,14 @@ a{
 
     &__subtitle{
         font-size: .938rem;
-        font-weight: var(--font-medium);
+        font-weight: 500;
     }
     &__title{
-        font-size: var(--biggest-font-size);
+        font-size: 2.5rem;
         margin-bottom: .5rem;
     }
     &__description{
-        font-size: var(--normal-font-size);
+        font-size: 1rem;
     }
 }
 .actions{
@@ -140,7 +140,7 @@ a{
 /*===== Size =====*/
 .size{
     &__title{
-        font-size: var(--normal-font-size);
+        font-size: 16px;
         margin-bottom: 1rem;
     }
     &__content{
@@ -150,21 +150,21 @@ a{
         width: 30px;
         height: 30px;
         margin-right: .5rem;
-        font-size: var(--smaller-font-size);
+        font-size: 16px;
         text-align: center;
         line-height: 30px;
         border-radius: .25rem;
         cursor: pointer;
     }
     &__tallas.active{
-        background-color: var(--primary);
-        color: var(--white-color);
+        background-color: #A29596;
+        color: #FFF;
     }
 }
 /*===== Qty =====*/
 .quantity{
     &__title{
-        font-size: var(--normal-font-size);
+        font-size: 16px;
         margin-bottom: 1rem;
     }
     &__content{
@@ -173,8 +173,8 @@ a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: var(--primary);
-        color: var(--white-color);
+        background-color: #A29596;
+        color: #FFF;
         padding: .5rem;
         border-radius: .25rem;
     }
@@ -186,7 +186,7 @@ a{
     bottom: 0;
     width: 100%;
     padding: 1rem 0;
-    background-color: var(--white-color);
+    background-color: #FFF;
     border-radius: 1.5rem 1.5rem 0 0;
     box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.25);
     display: flex;
@@ -194,12 +194,12 @@ a{
     align-items: center;
 
     &__title{
-        font-size: var(--big-font-size);
-        color: var(--black-color);
+        font-size: 25px;
+        color: #111111;
     }
     &__button{
-        background-color: var(--primary);
-        color: var(--white-color);
+        background-color: #A29596;
+        color: #FFF;
         padding: 1.25rem 3.125rem;
         border-radius: .5rem;
         transition: box-shadow .4s;
@@ -226,7 +226,7 @@ a{
 
     .price{
         &__title{
-            font-size: var(--normal-font-size);
+            font-size: .938rem;
         }
         &__button{
             padding: 1.25rem 2rem;
@@ -274,8 +274,8 @@ a{
         padding: 0;
 
         &__title{
-            color: var(--black-color);
-            font-weight: var(--font-medium);
+            color: #111111;
+            font-weight: 600;
         }
     }
 
@@ -284,7 +284,7 @@ a{
 /* For large devices */
 @media screen and(min-width: 968px){
     .nav{
-        height: calc(var(--header-height) + 1.5rem);
+        height: 4rem;
 
         &__list{
             flex-direction: row;
