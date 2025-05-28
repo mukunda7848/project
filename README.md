@@ -18,10 +18,10 @@ project/ <br>
 ├── assets/<br>
 │ ├── img/<br>
 │ │ └── NikeAirMaxMotion2.png<br>
-│ └── icons/
-│ ├── nike-logo.svg
-│ ├── icon-menu.svg
-│ └── shopping-bag.svg
+│ └── icons/<br>
+│ ├── nike-logo.svg<br>
+│ ├── icon-menu.svg<br>
+│ └── shopping-bag.svg<br>
 
 
 
