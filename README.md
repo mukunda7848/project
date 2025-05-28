@@ -12,11 +12,11 @@ A responsive and interactive landing page showcasing the **Nike Air Max Motion 2
 
 ## 📁 Folder Structure
 
-project/
+project/ <br>
 │
 ├── index.html <br>
-├── assets/
-│ ├── img/
+├── assets/<br>
+│ ├── img/<br>
 │ │ └── NikeAirMaxMotion2.png
 │ └── icons/
 │ ├── nike-logo.svg
